@@ -83,8 +83,8 @@ def main():
     
     # Create chatbot instance (only once)
     if 'chatbot' not in st.session_state:
-        # Replace 'your_text_file.txt' with the path to your text file
-        st.session_state.chatbot = Chatbot('/Users/aymen/Desktop/gomycode/python/chatbot/F1.txt')    
+        # Replace 'F1.txt' with the path to your text file
+        st.session_state.chatbot = Chatbot('F1.txt')    
     # User input
     user_input = st.text_input("Ask a question:")
     
